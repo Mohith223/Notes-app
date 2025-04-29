@@ -3,7 +3,7 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
-import NotesRoute from './routes/routes.js';
+import NotesRoute from './Routes/routes.js';
 
 const app = express();
 
